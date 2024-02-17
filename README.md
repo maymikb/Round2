@@ -6,7 +6,6 @@ By Maymi Sarr
 - [Description](#description)
 - [Installation](#installation)
 - [Link](#link)
-- [Screenshot](#screenshot)
 
 
 ## Description
@@ -15,13 +14,6 @@ By Maymi Sarr
 ## Installation
 <div></div>
 
-
-<div>Netlify</div>
-<div>package.json</div>
-<div>package-lock.json</div>
-<div></div>
-<div></div>
-<div></div>
 
 
 
