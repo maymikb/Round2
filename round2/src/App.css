@@ -1,42 +1,130 @@
-#root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
+/* Reset some default browser styles */
+body,
+h1,
+h2,
+p {
+    margin: 0;
+    padding: 0;
 }
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
+/* Style the navigation bar */
+nav {
+    background-color: #333;
+    color: white;
+    text-align: center;
 }
 
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+nav ul {
+    list-style: none;
+    padding: 10px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
+nav li {
+    display: inline;
+    margin: 0 20px;
 }
 
-.card {
-  padding: 2em;
+nav a {
+    text-decoration: none;
+    color: white;
 }
 
-.read-the-docs {
-  color: #888;
+/* Style the sections */
+section {
+    padding: 10px;
+    padding: 10px;
+}
+
+section h1 {
+    font-size: 2em;
+    margin-right:10px;
+    width: 200px;
+}
+
+/* Style individual projects */
+.project {
+    margin: 20px 0;
+    padding: 10px;
+    border: 1px solid #ddd;
+    background-color: #f9f9f9;
+}
+
+.project h2 {
+    font-size: 1.5em;
+}
+
+/* Style project images */
+.project img {
+    max-width: 100%;
+    height: auto;
+    border: 5px solid #ddd;
+    margin-bottom: 10px;
+}
+
+/* Style the "View Project" links */
+.project a {
+    display: inline-block;
+    padding: 5px 10px;
+    background-color: #333;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.project a:hover {
+    background-color: #555;
+}
+
+/* Add more custom styles as needed */
+
+
+#about {
+    display: flex;
+    flex-direction: row;
+}
+
+
+#description {
+    border-left: 5px solid brown;
+    padding: 10px;
+}
+
+#projects {
+    display: flex;
+    flex-direction: row;
+    padding:10px;
+}
+
+#container {
+    border-left: 5px solid brown;
+    padding: 10px;
+}
+
+#resume {
+    display: flex;
+    flex-direction: row;
+    
+    
+    padding: 10px;
+    
+
+    
+}
+
+#contact {
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+
+}
+
+.myPic{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+    align-items: center; 
+    padding: 10px;
 }

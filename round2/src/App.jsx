@@ -19,7 +19,7 @@ function App() {
     </nav>
     
 
-    <figure class="myPic">
+    <figure className="myPic">
         <img src="./PortfolioPic.png" alt="myPic"/>  
         <h2>Maymi K. B. Sarr</h2>
     </figure>
@@ -44,7 +44,7 @@ function App() {
         <h1>Projects</h1>
         <div id="container">
         
-            <figure class="project">
+            <figure className="project">
                 <img src="./Project1.png" alt="Project 1 Image"/>
                 <figcaption>
                     <h2>Project 1</h2>
@@ -59,7 +59,7 @@ function App() {
             </figure>
     
          
-            <figure class="project">
+            <figure className="project">
                 <img src="./ProjectPlaceholder.png" alt="Project 2 Placeholder Image"/>
                 <figcaption>
                     <h2>Project 2</h2>
@@ -69,7 +69,7 @@ function App() {
             </figure>
     
            
-            <figure class="project">
+            <figure className="project">
                 <img src="./ProjectPlaceholder.png" alt="Project 3 Placeholder Image"/>
                 <figcaption>
                     <h2>Project 3</h2>
