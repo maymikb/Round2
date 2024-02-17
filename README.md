@@ -1,32 +1,29 @@
-# techBlog
-
-
-# SVG Logo Maker
+# React Portfolio
 By Maymi Sarr
 
-
-## Purpose
 
 ## Table of contents
 - [Description](#description)
 - [Installation](#installation)
+- [Link](#link)
 - [Screenshot](#screenshot)
-- [Video](#video)
 
 
 ## Description
- 
 
 
 ## Installation
-<div> </div>
-<div> </div>
+<div></div>
+
+
+<div>Netlify</div>
+<div>package.json</div>
+<div>package-lock.json</div>
+<div></div>
+<div></div>
+<div></div>
 
 
 
 
-
-## Screenshot
-
-
-## Video Walkthrough Link
+## App URL
