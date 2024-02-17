@@ -1,42 +1,44 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
-import './App.css';
+import './App.css'
 
-// import { useState } from 'react';
-// import reactLogo from './assets/react.svg';
-// import viteLogo from '/vite.svg';
+import { useState } from 'react';
 
 import Navbar from './components/Navbar';
 import About from './components/About';
-import Projects from './components/Projects'; 
+import Projects from './components/Projects';
 import Resume from './components/Resume';
-import Contacts from './components/Contacts';
+import Contact from './components/Contact';
 
-function App(){
-  const [currentPage, setCurrentPage]=usesState("About")
+function App() {
+
+  const [currentPage, setCurrentPage] = useState("About")
+
+  function renderCurrentPage () {
+    if(currentPage == "About") {
+      return <About/>
+    }
+    if(currentPage == "Projects") {
+      return <Projects/>
+    }
+    if(currentPage == "Resume") {
+      return <Resume/>
+    }
+    if(currentPage == "Contact") {
+      return <Contact/>
+    }
+
+  }
 
   return (
     <>
-    <h1>{currentPage}</h1>
-    <button
-     onClick={()=>
-      setCurrentPage("About"
-      )}
-<Click</button>
-
-   <Navbar currentPage={currentPage} set currentPage={setCurrentPage}/>
-
-   <About />
-   <Projects/>
-   <Resume/>
-   <Contacts/>
 
 
+  <Navbar currentPage={currentPage} setCurrentPage={setCurrentPage}/>
 
+    {renderCurrentPage()}
 
-
-  
+    </>
   )
-  
 }
 
 export default App
